@@ -31,7 +31,7 @@ export default function MenuPage() {
 
   return (
     <>
-      <PageHeader eyebrow="Order online" title="Chef-prepared meals, ready for delivery" description="Browse family dinners, weekly meal prep, drinks, desserts, and catering platters designed to travel beautifully." image="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1800&q=85" />
+      <PageHeader eyebrow="Order online" title="Chef-prepared meals, ready for delivery" description="Browse family dinners, weekly meal prep, drinks, desserts, and catering platters priced in Nigerian naira for Jos delivery." image="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1800&q=85" />
       <section className="container pb-24">
         <div className="-mt-10 mb-10 grid gap-4 rounded-[2rem] border border-orange-100 bg-white p-4 shadow-soft md:grid-cols-[1fr_auto_auto]">
           <Input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search dishes, ingredients, or platters" aria-label="Search menu" />

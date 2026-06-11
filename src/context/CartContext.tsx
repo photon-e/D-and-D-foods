@@ -46,7 +46,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(cartReducer, { items: [] });
   const value = useMemo<CartContextValue>(() => {
     const subtotal = state.items.reduce((sum, item) => sum + item.price * item.quantity, 0);
-    const deliveryFee = subtotal > 0 ? 4.99 : 0;
+    const deliveryFee = subtotal > 0 ? 1500 : 0;
     return {
       ...state,
       addItem: (item) => dispatch({ type: 'ADD_ITEM', item }),

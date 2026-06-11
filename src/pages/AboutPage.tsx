@@ -7,7 +7,7 @@ const values = [
   { title: 'Freshness', Icon: Sprout, text: 'Seasonal sourcing and scratch-made staples.' },
   { title: 'Hospitality', Icon: HeartHandshake, text: 'Every order should feel generous and cared for.' },
   { title: 'Reliability', Icon: Award, text: 'Clear timing, careful packing, and event-ready execution.' },
-  { title: 'Community', Icon: Users, text: 'A family business built to serve neighbors well.' },
+  { title: 'Community', Icon: Users, text: 'A family business built to serve Jos neighbors well.' },
 ];
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
       <Section>
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=80" alt="Chef finishing a plate" className="rounded-[2.5rem] shadow-soft" />
-          <div><p className="text-sm font-extrabold uppercase tracking-[0.25em] text-primary">Company story</p><h2 className="mt-4 font-display text-5xl font-bold">Cooking with care has always been our family language.</h2><p className="mt-6 text-lg leading-9 text-muted-foreground">What started as weekend trays for neighbors became a trusted local kitchen for family meals, office lunches, weddings, and celebrations. We keep the warmth of home cooking while using the planning standards of a polished catering team.</p></div>
+          <div><p className="text-sm font-extrabold uppercase tracking-[0.25em] text-primary">Company story</p><h2 className="mt-4 font-display text-5xl font-bold">Cooking with care has always been our family language.</h2><p className="mt-6 text-lg leading-9 text-muted-foreground">What started as weekend trays for Jos neighbors became a trusted local kitchen for family meals, office lunches, weddings, and celebrations. We keep the warmth of home cooking while using the planning standards of a polished catering team.</p></div>
         </div>
       </Section>
       <Section eyebrow="Mission & values" title="Premium food without losing the personal touch" className="bg-orange-50/50">
