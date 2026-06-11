@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-react';
+import { Camera, Mail, MapPin, MessageCircle, Phone, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -20,7 +20,7 @@ export function Footer() {
           </div>
           <p className="mt-5 max-w-sm leading-7 text-white/70">Family-owned catering and delivery with chef-crafted meals, warm hospitality, and event-ready presentation.</p>
           <div className="mt-6 flex gap-3">
-            {[Instagram, Facebook, Twitter].map((Icon, index) => <a key={index} href="#" className="grid h-10 w-10 place-items-center rounded-full bg-white/10 transition hover:bg-primary" aria-label="Social media"><Icon className="h-5 w-5" /></a>)}
+            {[Camera, MessageCircle, Send].map((Icon, index) => <a key={index} href="#" className="grid h-10 w-10 place-items-center rounded-full bg-white/10 transition hover:bg-primary" aria-label="Social media"><Icon className="h-5 w-5" /></a>)}
           </div>
         </div>
         {Object.entries(footerLinks).map(([heading, items]) => (
