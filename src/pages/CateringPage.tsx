@@ -49,7 +49,7 @@ export default function CateringPage() {
 
   return (
     <>
-      <PageHeader eyebrow="Catering" title="Premium catering for gatherings that matter" description="From intimate dinners to full-service receptions, D&D Foods brings thoughtful menus, polished presentation, and calm coordination." image="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1800&q=85" />
+      <PageHeader eyebrow="Catering" title="Premium catering for gatherings that matter" description="From intimate dinners to full-service receptions in Jos, D&D Foods brings thoughtful menus, polished presentation, and calm coordination." image="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1800&q=85" />
       <Section eyebrow="Event services" title="Menus matched to your moment">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {allServices.map((service) => <Card key={service.id} className="overflow-hidden"><img src={service.image} alt={service.name} className="h-56 w-full object-cover" /><CardContent><h2 className="font-display text-3xl font-bold">{service.name}</h2><p className="mt-3 leading-7 text-muted-foreground">{service.description}</p></CardContent></Card>)}
@@ -69,7 +69,7 @@ export default function CateringPage() {
             <Field label="Phone" error={errors.phone}><Input value={form.phone} onChange={(e) => update('phone', e.target.value)} /></Field>
             <Field label="Event Type" error={errors.eventType}><Select value={form.eventType} onChange={(e) => update('eventType', e.target.value)}><option value="">Select an event</option><option>Wedding</option><option>Corporate Event</option><option>Birthday Party</option><option>Private Event</option><option>Holiday Catering</option></Select></Field>
             <Field label="Guest Count" error={errors.guestCount}><Input type="number" min="5" value={form.guestCount} onChange={(e) => update('guestCount', e.target.value)} /></Field>
-            <Field label="Budget"><Input value={form.budget} onChange={(e) => update('budget', e.target.value)} placeholder="$1,500 - $3,000" /></Field>
+            <Field label="Budget"><Input value={form.budget} onChange={(e) => update('budget', e.target.value)} placeholder="₦1,500,000 - ₦3,000,000" /></Field>
             <Field label="Additional Notes" className="md:col-span-2"><Textarea value={form.notes} onChange={(e) => update('notes', e.target.value)} placeholder="Venue, timing, dietary needs, preferred service style..." /></Field>
             <Button type="submit" className="md:col-span-2">Submit Catering Request</Button>
           </form>

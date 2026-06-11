@@ -46,9 +46,9 @@ export default function HomePage() {
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#1F2937]/90 via-[#1F2937]/60 to-[#1F2937]/15" />
         <div className="container grid items-center gap-12 lg:grid-cols-[1.05fr_.95fr]">
           <motion.div initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="max-w-4xl text-white">
-            <Badge className="bg-white/15 text-white backdrop-blur">Family-owned • Chef-prepared • Event-ready</Badge>
+            <Badge className="bg-white/15 text-white backdrop-blur">Jos-based • Chef-prepared • Event-ready</Badge>
             <h1 className="mt-6 font-display text-5xl font-bold leading-tight tracking-tight sm:text-7xl">Delicious Meals Delivered. Exceptional Catering Experiences.</h1>
-            <p className="mt-6 max-w-2xl text-xl leading-9 text-white/85">Freshly prepared meals and premium catering for every occasion.</p>
+            <p className="mt-6 max-w-2xl text-xl leading-9 text-white/85">Freshly prepared meals and premium catering across Jos, Plateau State.</p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button size="lg" asChild><Link to="/menu" className="flex items-center gap-2">Order Now <ArrowRight className="h-5 w-5" /></Link></Button>
               <Button size="lg" variant="secondary" asChild><Link to="/catering">Request Catering</Link></Button>
