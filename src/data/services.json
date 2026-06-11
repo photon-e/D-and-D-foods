@@ -1,0 +1,7 @@
+[
+  { "id": "weddings", "name": "Weddings", "description": "Elegant menus, polished service, and thoughtful details for unforgettable celebrations.", "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" },
+  { "id": "corporate", "name": "Corporate Events", "description": "Breakfast bars, boxed lunches, executive dinners, and reception-style service.", "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" },
+  { "id": "birthdays", "name": "Birthday Parties", "description": "Colorful, generous menus for milestone birthdays and intimate family gatherings.", "image": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=80" },
+  { "id": "private", "name": "Private Events", "description": "Dinner parties, showers, tastings, and bespoke experiences in your home or venue.", "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" },
+  { "id": "holiday", "name": "Holiday Catering", "description": "Seasonal menus, festive desserts, and stress-free hosting packages.", "image": "https://images.unsplash.com/photo-1576867757603-05b134ebc379?auto=format&fit=crop&w=900&q=80" }
+]

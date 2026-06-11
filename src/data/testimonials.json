@@ -1,0 +1,5 @@
+[
+  { "id": "1", "name": "Alicia M.", "role": "Wedding Client", "quote": "D&D Foods made our reception feel effortless. Every dish was beautiful, warm, and deeply flavorful.", "rating": 5 },
+  { "id": "2", "name": "Marcus J.", "role": "Office Manager", "quote": "Our team lunches are now the best part of the week. Reliable delivery and restaurant-level presentation.", "rating": 5 },
+  { "id": "3", "name": "Priya S.", "role": "Private Event Host", "quote": "The grazing table was a showstopper. Guests kept asking who catered before dinner even started.", "rating": 5 }
+]
